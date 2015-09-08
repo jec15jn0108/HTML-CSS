@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>レイアウトサンプル</title>
+<link href="layout.css" rel="stylesheet">
+<style type="text/css">
+<!--
+.width,.height,a{
+	background:#bee3e5;
+}
+.left,
+.right,
+.sample,
+.sample02 {
+	background:#dde5be
+}
+-->
+</style>
+</head>
+<body>
+<h1>レイアウトサンプル</h1>
+<a href="#">通常のリンク</a>
+<a href="#">通常のリンク</a>
+<a href="#" class="block">「display」プロパティでblockを指定</a>
+<a href="#">通常のリンク</a>
+<p class="width">ブロック要素に幅を指定</p>
+<p class="height">ブロック要素に高さを指定</p>
+
+<a href="#" class="width">インライン要素の&gt;a&glタグには幅指定できない</a><br>
+<a href="#" class="height">インライン要素の&gt;a&glタグには高さ指定できない</a><br>
+
+<p class="left"><img src="images/cat.jpg"></p>
+<p class="sample">画像をfloatで左に寄せているので、次の要素は右側に入ってくる</p>
+<p class="sample">floatさせた要素の高さに余裕があれば、後ろの要素はいつまでも右に回り込む。<br>
+文章などが長くなり、floatさせた要素の高さを超えると通常の幅で下に表示されるようになる。<br>
+文章などが長くなり、floatさせた要素の高さを超えると通常の幅で下に表示されるようになる。<br>
+文章などが長くなり、floatさせた要素の高さを超えると通常の幅で下に表示されるようになる。<br>
+文章などが長くなり、floatさせた要素の高さを超えると通常の幅で下に表示されるようになる。</p>
+<p class="right"><img src="images/cat02.jpg"></p>
+<p class="sample">画像をfloatで右に寄せているので、次の要素が左に入ってくる</p>
+<p class="sample02">float要素の高さに余裕があれば、後ろの要素はいつまでも左に回り込む。解除するには、clearプロパティを使用する。</p>
+<p class="position"><img src="images/leaf.jpg"></p>
+<p class="height">ポジションを比較しやすいように入れた要素</p>
+<p class="position02"><img src="images/leaf.jpg"></p>
+<p class="height">ポジションを比較しやすいように入れた要素</p>
+</div>
+</body>
+</html>
+

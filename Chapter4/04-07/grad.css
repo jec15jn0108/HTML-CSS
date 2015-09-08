@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document Œ³‚Í‹ó*/
+body{
+	background:-webkit-linear-gradient(top,#8bf1fe,#1629da);
+	background:-moz-linear-gradient(top,#8bf1fe,#1629da);
+	background:-o-linear-gradient(top,#8bf1fe,#1629da);
+	background:liner-gradient(to bottom,#8bf1fe,#1629da);
+	background-color:#bfeff5;
+}
+.bgSample{
+	background-image:url(images/robo.png),url(images/bg.gif);
+	background-repeat:no-repeat,repeat;
+	background-position:right bottom,left;
+}
+h2{
+	background-color:rgba(255,255,255,0.5);
+	color:rgba(0,0,0,0.2);
+}
