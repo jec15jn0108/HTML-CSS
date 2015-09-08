@@ -1,0 +1,43 @@
+﻿@charset "utf-8";
+/*背景*/
+body{
+  background-color: #ffffff;
+	background-image:url(image/back.gif);
+	background-repeat:repeat-y;
+}
+
+/*見出し*/
+h1{
+  width: 850px;
+  background-color: #cc0000;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  padding: 5px;
+}
+h2{
+  font-size: 18px;
+  color: #006600;
+  padding-left: 30px;
+}
+
+/*内容*/
+p{
+  width: 800px;
+  font-size: 16px;
+  color: #333333;
+  text-align: justify;
+  text-justify: distribute;
+  line-height: 150%;
+  padding-left: 50px;
+}
+
+/*画像*/
+.right_p{
+  float: right;
+  padding-left: 20px;
+}
+.left_p{
+  float: left;
+  padding-right: 20px;
+}
