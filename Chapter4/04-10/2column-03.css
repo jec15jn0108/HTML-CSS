@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+#container{
+	width:900px;
+	margin:auto;
+	position:relative;
+}
+header{
+	background:#c3d893;
+	height:30px;
+}
+nav{
+	position:absolute;
+	top:30px;
+	left:0;
+	width:250px;
+	background:#f2f3b0;
+}
+#contents{
+	margin-left:250px;
+	background:#b1e1e3;
+}

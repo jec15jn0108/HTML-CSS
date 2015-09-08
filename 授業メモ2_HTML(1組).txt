@@ -1,0 +1,121 @@
+HTML　5回目---
+
+■CSS(Cascading Style Sheet)について
+　Webページのスタイルを指定するための言語。 
+
+　●HTML・・・文書構造を定義する
+　●CSS ・・・見栄え(デザイン)を指定する
+
+■外部スタイルシート
+　HTMLファイルとの関連付け
+　例）<link href="sample01.css" rel="stylesheet">
+
+■CSSの基本書式
+　●1行目に文字コード
+　　@charset "utf-8";
+　
+　●コメントの書き方
+　　/* コメント */
+
+
+　●セレクタ/プロパティ/値
+
+    セレクタ{
+              プロパティ:値;
+    }
+
+　●セレクタの種類
+　　◆要素型セレクタ(タイプセレクタ)
+
+      タグ名{
+              プロパティ:値;
+      }
+
+　　P97
+    h1{
+        color:red;
+        font-size:20px;
+    }
+    <h1>タグで囲まれた箇所に、文字色が赤、フォントサイズを20px
+    
+
+　　◆classセレクタ
+
+      .クラス名{
+              プロパティ:値;
+      }
+
+　　 P98
+    【HTML】<p class="test01">pタグにclass名を付けてみよう</p>
+    【CSS】 p.test01{
+                color:orange;
+            }
+            <p>タグ内のクラス名「test01」の文字色をオレンジ
+
+            .test01{
+                font-size:30px;
+             }
+            クラス名「test01」の文字色をオレンジ
+
+　　◆idセレクタ
+
+      #id名{
+              プロパティ:値;
+      }
+
+　　 P99
+    【HTML】<p id="test02">タグにid名="test02"を付けてみよう</p>
+            <p id="test03">タグにid名="test03"を付けてみよう</p>
+
+    【CSS】 p#test02{
+                color:#33ccff;
+            }
+            <p>タグ内のid名「test02」の文字色を#33ccff
+
+            #test03{
+                color:#cc3399;
+            }
+            id名「test03」の文字色を#cc3399
+
+　　　◇classとidの使い分け
+　　　　id ・・・1つのHTMLソース内で1回だけ使用する（何度も同じid名を定義しない）
+　　　　class・・1つのHTMLソース内で何度でも使える
+　　　　　↓
+　　　　idは大きなページレイアウト用、classは細かいデザイン用に使用する
+
+＊参考
+　■文字実体参照とは
+　　直接記述できない文字や記号を表記する方法
+　　　<・・・&lt;
+　　　>・・・&gt;
+　　　"・・・&quot; 
+　　　&・・・&amp; 　など
+
+　■よく使用する単位
+　　px・・・画面の1つの点
+　　em・・・現在の文字サイズを1em
+            (多くのブラウザでは初期の文字サイズ：16px)
+
+　■色指定
+　　・光の3原色・・・RGBカラー
+                     赤(R)/緑(G)/青(B)
+　　・16進数での色指定(00～ff)
+      #33 66 99
+       ~~ ~~ ~~
+       R  G  B（最初の2桁が赤の光の強さ、次の2桁が緑の光の強さ、最後の2桁が青の光の強さ）
+
+　　・色見本のサイト例
+      http://www.colordic.org/
+
+
+IE8以前はHTML5の新要素を知らないので
+以下のコードを<link>タグの下にコピーすれば
+IE8以前もHTML5の新要素を解釈してくれる
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+Stepup課題
+プリント「Halloween.html」
+        「base.css」

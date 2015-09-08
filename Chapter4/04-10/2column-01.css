@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+#container{
+	width:900px;
+	margin:auto;
+}
+#contents{
+	float:left;
+	width:650px;
+	background:#cbe8e9;
+}
+nav{
+	float:right;
+	width:250px;
+	background:#f7f7c8;
+}
+header{
+	background:#c3d893;
+}
+footer{
+	background:#e2e2e2;
+	clear:both;
+}
+
+

@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+h1,h2,p.test03{
+  color: #00cccc;
+}
+p strong{
+  font-size: 200%;
+}
+
+a:link{
+  color: red;
+}
+a:visited{
+  color: orange;
+}
+a:hover{
+  color: green;
+}
+a:active{
+  color: pink;
+}
+
+li:nth-child(odd){
+  background-color: silver;
+}

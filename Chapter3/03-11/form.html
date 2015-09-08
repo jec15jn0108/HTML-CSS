@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Flower&Sky View問い合わせ</title>
+		<script>
+		<!--
+			function func() {
+
+			window.open( "formsample.html","win1","toolbar=no,location=no,status=no,menubar=no,scrollbar=no,width=600,height=200");
+		}
+		// -->
+	</script>
+	</head>
+	<body>
+		<header>
+			<h1>問い合わせ</h1>
+			<p>Flower&Sky Viewに関しての質問や感想などがありましたら、下記のフォームよりご連絡をお願いします。</p>
+			<nav>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="photo.html">Photo</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="form.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<form name="form1" method="post" action="javascript:func()">
+			<p>氏名</p>
+				<input type="text" size=30 name="name1"/>
+			<p>Eメール</p>
+				<input type="email" size="40" name="mail" />
+			<p>性別</p>
+				<input type="radio" name="sex" value="男性" />男性
+				 <input type="radio" name="sex" value="女性" />女性
+			<p>気に入った写真がありましたらチェックください。（複数化）</p>
+        <input type="checkbox" name="photo" value="10" />花の写真:一眼
+        <input type="checkbox" name="photo" value="20" />空の写真:一眼
+        <input type="checkbox" name="photo" value="30" />花の写真:須磨穂
+        <input type="checkbox" name="photo" value="40" />空の写真:須磨穂
+      <p>メッセージ内容</p>
+        <textarea name="message" cols="60" rows="4" ></textarea>
+			<p><input type="submit" value="送信" /><input type="reset" value="リセット" /></p>
+		</form>
+
+		<footer>
+			<p><small>Copyright(C) 2015 Flower&Sky View All Rights Reserved.</small></p>
+		</footer>
+	</body>
+</html>
